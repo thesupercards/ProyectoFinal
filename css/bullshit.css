@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-ene-2015, 17:36:04
+    Author     : Francis
+*/
+
+#tablaContenedora{
+    width: 100%;
+    min-width: 600px;
+    border: solid 1px black;
+}
+
+#tablaContenedora thead th{
+    height: 40px;
+    border: solid 3px black;
+}
+
+#tablaContenedora tbody tr td {
+    border: solid 3px black;
+}
+
+#tablaContenedora tfoot td {
+    border: solid 3px black;
+}
+
+.elementoNDB{
+	text-align: left;
+	color: black;
+	font-size: 15px;
+	font-weight:bold;
+}
+
+.elementoDB{
+	text-align: right;
+	color: rgb(0,0,255);
+	font-size: 15px;
+	font-weight:bold;
+}

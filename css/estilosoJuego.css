@@ -1,0 +1,209 @@
+html{height:100%;}
+
+body {
+	font-family: bankgothic;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#todo{height:100%}
+
+#menu{
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #000000, #191919, #212121) repeat scroll 0 0;
+    border-right: 1px solid #565656;
+    height: 100%;
+    padding-top: 30px;
+    position: fixed;
+    text-align: center;
+    width: 250px;
+}
+
+.campo{
+color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.valor{
+  color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    text-transform: uppercase;}
+	
+.n{color:yellow}
+.v{color:#00FF09}
+.d{color :red;}
+
+.info{
+border-bottom: 1px solid #565656;
+    margin: 0 auto;
+  
+    padding-top: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+
+#cerrar{
+background: rgba(0, 0, 0, 0) linear-gradient(#ff0000, #890000) repeat scroll 0 0;
+    border: 1px solid #ff0000;
+    bottom: 71px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    width: 99%;
+   
+}
+
+
+#centro{margin-left:250px; background: linear-gradient(#001A28, #00476D) repeat scroll 0 0 rgba(0, 0, 0, 0);  height: 100%; overflow:hidden;
+ color: white;
+   
+   /*
+    background: rgba(0, 0, 0, 0) linear-gradient(#9f9f9f, #9f9f9f) repeat scroll 0 0;
+   */
+   text-align: center;
+	text-transform: uppercase;
+	
+}
+
+#tablero{
+	display: inline-block; position: relative;
+}
+
+#lienzo {
+    border: solid 1px #ccc;
+    margin: 20px;
+
+    /*background: black;*/
+    background-image: url("tableroenano3.png");
+
+    cursor: default;
+}
+
+#mutear{
+
+
+}
+
+#sonar{
+    display:none;
+}
+
+
+#chat{
+    background-color: #F6F6F6;
+    border: 1px solid black;
+    float: left;
+    height: auto;
+    left: 470px;
+    position: absolute;
+    top: 213px;
+    width: 300px;
+    font-family: Calibri;
+    z-index: 10000;
+}
+
+#iconoOpciones{ left: 200px;
+    position: absolute;
+    top: 20px;}
+
+.minimizar{
+    color: white;
+    float: right;
+    font-size: 40pt;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    z-index: 1;
+}
+
+#conversationDiv{
+    height:300px;
+    overflow:auto;
+
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+#textChat {
+
+
+}
+
+
+#conexionChat {
+    background: none repeat scroll 0 0 #5b58ff;
+
+    color: white;
+
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#conexionChat>span {
+
+    margin-left:10px;
+}
+
+.horaMensajeRival, .horaMensajeJugador{
+    font-size: 8pt;
+    color: darkgray;
+    font-family: "Open Sans";
+    clear: both;
+}
+
+.horaMensajeRival{
+    float:left;
+}
+
+.horaMensajeJugador{
+    float:left;
+}
+
+.mensajeJugador, .mensajeRival{
+    font-family: monospace;
+    word-wrap: break-word;
+    border:1px solid #B1B1B1;
+    border-radius: 10px;
+    max-width:70%;
+    clear:both;
+    padding: 10px;
+}
+
+.mensajeRival{
+    border-top: 3px solid red;
+    background-color: #f7e48f;
+    margin-bottom: 10px;
+    float:left;
+}
+
+.mensajeJugador{
+    border-bottom: 3px solid green;
+    background-color: #8fdef7;
+    display: flex;
+    margin-bottom: 10px;
+    right: 10px;
+    float:right;
+}
+
+#mensaje{
+    height: 25px;
+    width: 97.5%;
+}
+
+#name{
+    height: 30px;
+    width: 294px;
+}

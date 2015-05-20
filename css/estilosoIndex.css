@@ -1,0 +1,187 @@
+body {
+	background: linear-gradient(#001A28, #00476D) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	 margin: 0;
+    padding: 0;
+	font-family: bankgothic;
+}
+
+#todo{
+
+ margin-left: 5%;
+    width: 90%;
+	margin-top:30px;
+		
+}
+
+#arriba{
+  border: 1px solid grey;
+  
+ background: linear-gradient(#4b4b4b, #1a1a1a) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#info{
+
+
+border-right: 1px solid #787878;
+    border-top: 1px solid #787878;
+    color: white;
+   
+    font-weight: bold;
+    padding: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#abajo{margin-top:30px;}
+
+#logoInfo{
+padding:20px;
+display:inline-block;
+width:40%;
+}
+
+#slida{
+	text-align: center;
+	display:inline-block;
+}
+
+#iniForm{
+ background: linear-gradient(#262626, #454545) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid grey;
+    color: white;
+    
+    font-size: 20px;
+    line-height: 38px;
+    margin: auto auto 30px;
+    width: auto;
+}
+
+#form1{
+ display: inline-block;
+   
+    text-align: center;
+    vertical-align: top;
+    width: 50%;
+}
+#form1>div:first-child{
+   background-color: black;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 450px;
+}
+#form2{
+display:inline-block;
+vertical-align: top;
+}
+#form2>div:first-child{
+background-color: black;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 450px;
+}
+
+#crearForm{
+background: linear-gradient(#262626, #454545) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid grey;
+    color: white;
+   
+    font-size: 20px;
+    line-height: 38px;
+    margin: auto auto 30px;
+    width: auto;
+	 text-align: center;
+}
+
+#formRegistro{
+text-align: center}
+#formRegistro>span{color: white;   text-transform: uppercase; font-weight: bold;}
+
+
+.inputs{
+ background-color: #bfbfbf;
+
+    border: 1px solid white;
+    color: black;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 5px;
+     width: 240px;
+}
+
+#toga{display:none}
+
+#obama{
+ background-color: #bbbbbb;
+    color: pink;
+    height: 450px;
+    left: 33%;
+    position: fixed;
+    top: 30%;
+    width: 400px;
+    z-index: 34567;
+	border: 2px solid white;
+	display:none;
+}
+
+#terminos{
+ background: rgba(0, 0, 0, 0) linear-gradient(#262626, #454545) repeat scroll 0 0;
+    border: 1px solid grey;
+    color: white;
+   
+    font-size: 20px;
+    line-height: 38px;
+    margin: auto auto 30px;
+    text-align: center;
+    width: auto;
+}
+#terminos2{
+   background-color: #f7f7f7;
+    border: 1px solid white;
+    color: black;
+    
+    height: 300px;
+    margin: 0 auto;
+    overflow: auto;
+    width: 330px;
+}
+
+
+#NSA{
+height:100%;
+width:100%;
+
+}
+
+
+#botonInicio{
+  background: linear-gradient(#009eff, #005990) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #009eff;
+    border-radius: 30px;
+    color: white;
+    font-family: bankgothic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+#botonRegistro{
+background: linear-gradient(#ff0000, #890000) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ff0000;
+    border-radius: 30px;
+    color: white;
+    font-family: bankgothic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+footer{
+background-color:black; width:100%; text-align: center; height:100px; color: white;  text-transform: uppercase; font-weight: bold; 
+margin-top:50px; padding-top:40px;
+}

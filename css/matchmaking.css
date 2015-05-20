@@ -1,0 +1,122 @@
+html{height:100%;}
+
+body {
+	font-family: bankgothic;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#todo{height:100%}
+
+#menu{
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #000000, #191919, #212121) repeat scroll 0 0;
+    border-right: 1px solid #565656;
+    height: 100%;
+    padding-top: 30px;
+    position: fixed;
+    text-align: center;
+    width: 250px;
+}
+
+.campo{
+color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.valor{
+  color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    text-transform: uppercase;}
+	
+.n{color:yellow}
+.v{color:#00FF09}
+.d{color :red;}
+
+.info{
+border-bottom: 1px solid #565656;
+    margin: 0 auto;
+  
+    padding-top: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+
+#cerrar{
+background: rgba(0, 0, 0, 0) linear-gradient(#ff0000, #890000) repeat scroll 0 0;
+    border: 1px solid #ff0000;
+    bottom: 71px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    width: 99%;
+   
+}
+
+#centro{margin-left:250px; background: linear-gradient(#001A28, #00476D) repeat scroll 0 0 rgba(0, 0, 0, 0);  height: 100%; overflow:hidden;
+ color: white;
+   
+   /*
+    background: rgba(0, 0, 0, 0) linear-gradient(#9f9f9f, #9f9f9f) repeat scroll 0 0;
+   */
+   
+	text-transform: uppercase;
+	
+}
+	
+#onbarra{
+background: rgba(0, 0, 0, 0) url("/proyectoFinal/img/barra.png") repeat-x scroll center bottom;
+}
+	
+#centro div:nth-child(2){padding-top:30px;font-weight: bold;
+background: rgba(0, 0, 0, 0) linear-gradient(#9f9f9f, #9f9f9f) repeat scroll 0 0; height:400px;
+}
+
+#buscando{   margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%; font-size:30px;  padding-top: 20px;}
+#buscando>img{width:90px}
+
+#tabla{ margin:0 auto; }
+
+td{padding-top:7px; padding-bottom:7px; text-align: center; }
+
+#tabla tr{
+	 background: rgba(0, 0, 0, 0) linear-gradient(#000000, #505050) repeat scroll 0 0;
+}
+
+#tabla tr:first-child{
+	 background: rgba(0, 0, 0, 0) linear-gradient(black, black) repeat scroll 0 0;
+    border-left: 0 solid black;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+#tabla tr:nth-child(2n){
+background: rgba(0, 0, 0, 0) linear-gradient(#F6F6F6, #DDDDDD) repeat scroll 0 0; color:black
+}
+#tabla tr:nth-child(1){
+	 background: rgba(0, 0, 0, 0) linear-gradient(#009C0D, #006208) repeat scroll 0 0;
+}
+*/
+
+#nombre{width:250px; font-size: 19px;}
+#victorias{width:120px; font-size: 19px;}
+#derrotas{width:120px; font-size: 19px;}
+#partidas{width:170px; font-size: 19px; width: 205px;}
+
+
+#abajo{background: rgba(0, 0, 0, 0) url("/proyectoFinal/img/barra2.png") repeat-x scroll center top;
+height:50px;}
