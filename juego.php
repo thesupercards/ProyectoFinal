@@ -6,7 +6,10 @@
     </head>
     <body>
         <?php
-            //nothing
+            $_SESSION['menu'] = true;
+            $_SESSION['tablero'] = false;
+            $_SESSION['matchmaking'] = false;
+            include 'selectorPagina.php';
         ?>
     </body>
 </html>
